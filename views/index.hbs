@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+	body, ul{
+		text-align: center;
+		width: 400px;
+		margin: 0 auto;
+	}
+	h1, h2, li{
+		text-transform: capitalize;
+		font-family: system-ui;
+	}
+	.abilities{
+		display: flex;
+		flex-wrap:wrap;
+		list-style: none;
+	}
+	.abilities li{
+		padding: 1em;
+	}
+	.stats li{
+		display: flex;
+		align-items: center;
+		color:white;
+		padding: .5em 2em;
+		text-transform: uppercase;
+		margin: 1em 0;
+	}
+</style>
+<body>
+	<h1>{{name}}</h1>
+	<img src="{{sprites.front_default}}" alt="">
+	<h2>Abilities</h2>
+	<ul class="abilities">
+	  {{#each abilities}}
+	 	 <li>{{this.ability.name}}</li>
+	  {{/each}}
+	</ul>
+	<h2>Stats</h2>
+	<ul class="stats">
+	  {{#each stats}}
+	 	 <li style="background-color: green; height: 40px; width:calc({{this.base_stat}}px * 5);">{{this.stat.name}} : {{this.base_stat}}</li>
+	  {{/each}}
+	</ul>
+</body>
+</html>

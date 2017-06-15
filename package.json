@@ -1,0 +1,20 @@
+{
+  "name": "reach-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-hbs": "^1.0.4",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4",
+    "nodemon": "^1.11.0",
+    "pokedex-promise-v2": "^3.0.3",
+    "stache": "^0.1.0"
+  }
+}
