@@ -3,6 +3,8 @@
 ##Materials
 https://pokeapi.co/docsv2/#info
 
+##Time Required (~1hr)
+
 ##Requirement
 The requirement of the assignment is to create an app similar to the one in the follow link.
 Visit https://reach-pokemon-demo.herokuapp.com/ for example of completed assignment.
