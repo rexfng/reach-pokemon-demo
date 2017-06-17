@@ -5,7 +5,7 @@ $('document').ready(function(){
 	var pokemon2Img = $('#pokemon2Img');
 	pokemon1.on('keyup', function(){
 		$.ajax({
-			url: 'http://pokeapi.co/api/v2/pokemon/' + pokemon1.val()
+			url: 'https://pokeapi.co/api/v2/pokemon/' + pokemon1.val()
 
 		}).done(function(data){
 			var stats = [];
@@ -37,7 +37,7 @@ $('document').ready(function(){
 
 	pokemon2.on('keyup', function(){
 		$.ajax({
-			url: 'http://pokeapi.co/api/v2/pokemon/' + pokemon2.val()
+			url: 'https://pokeapi.co/api/v2/pokemon/' + pokemon2.val()
 		}).done(function(data){
 			var stats = [];
 			var statsLabel = [];
