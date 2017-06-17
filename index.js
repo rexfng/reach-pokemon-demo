@@ -10,12 +10,11 @@ app.engine('hbs', hbs.express4({
 }));
 app.set('view engine', 'hbs');
 app.set('views', __dirname + '/views');
+app.use('/', express.static('public'));
 
-
-app.get('/', function (req, res) {
-	res.send('<a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_name">Type pokemon name at the end of path to fetch for stats and abilities.</a>');
-})
-
+// app.get('/', function (req, res) {
+// 	res.send('<a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_name">Type pokemon name at the end of path to fetch for stats and abilities.</a>');
+// })
 
 app.get('/:type', function (req, res) {
 	P.getPokemonByName(req.params.type)
