@@ -1,21 +1,24 @@
 #Reach Social Developer Assignment
 
+GOAL of the Project
+1. I get everyone is busy, so thank you in advance for working on the assignment. What we are looking at is mostly on how you approach the question, and make sure you have a basic understanding of web technology. If you have any questions, please google, but also feel free to contact me at rexfong@reachsocialinc.com 
+
 ##Materials
 https://pokeapi.co/docsv2/#info
 
-##Time Required (~1hr)
-
 ##Requirement
-The requirement of the assignment is to create an app similar to the one in the follow link.
-Visit https://reach-pokemon-demo.herokuapp.com/ for example of completed assignment.
-1. Your submission must include a dynamic endpoint http://example.com/{pokemon}
-2. Your individual pokemon page must have an image, abilities and stats (ui is not important)
-3. You must deploy it and share your project with interviewer via git.
+Your goal is to accomplish 1 of the 2 assignments below. UI is optional in this assignment, but if you wish to style it you are opened to do so.
 
-##Description
-Create a simple site to dynamically load up content of various pokemons to display their stats and abilities.
-i.e. https://reach-pokemon-demo.herokuapp.com/eevee
-For a list of pokemon visit https://reach-pokemon-demo.herokuapp.com/
+ASSIGNMENT ONE
+1. Create a comparing pokemon pokedex like the one in the link following: https://reach-pokemon-demo.herokuapp.com/ 
+
+ASSIGNMENT TWO 
+1. Create a dynamic link which shows the stats of a pokemon in the following format: http://example.com/{nameofpokemon} i.e. https://reach-pokemon-demo.herokuapp.com/eevee
+
+DELIVERABLE
+1. You must deploy it and share your project via git.
 
 ##Instructions
-1. This assignment is open-ended. Feel free to use any languages, webserver and framework. 
+1. This assignment is open-ended. Feel free to use any languages, webserver, build tools, libraries and framework. You do not need to write any unit test.
+
+
