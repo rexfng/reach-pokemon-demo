@@ -15,7 +15,7 @@ ASSIGNMENT TWO
 DELIVERABLE
 1. You must deploy it and share your project via git.
 
-##Instructions
-1. This assignment is open-ended. Feel free to use any languages, webserver, build tools, libraries and framework. You do not need to write any unit test.
+
+This assignment is open-ended. Feel free to use any languages, webserver, build tools, libraries and framework. You do not need to write any unit test.
 
 
