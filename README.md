@@ -1,8 +1,5 @@
 #Reach Social Developer Assignment
 
-GOAL of the Project
-1. I get everyone is busy, so thank you in advance for working on the assignment. What we are looking at is mostly on how you approach the question, and make sure you have a basic understanding of web technology. If you have any questions, please google, but also feel free to contact me at rexfong@reachsocialinc.com 
-
 ##Materials
 https://pokeapi.co/docsv2/#info
 
